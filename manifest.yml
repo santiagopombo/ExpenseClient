@@ -1,0 +1,7 @@
+applications:
+- name: expense-client
+  mem: 128M
+  services:
+  stackato:
+    ignores:
+    - node_modules
