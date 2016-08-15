@@ -1,7 +1,9 @@
 applications:
-- name: expense-client
+- name: expense_client
+  host: expenseclient
+  domain: hcf.helion.lol
   mem: 128M
-  services:
+  services:[]
   stackato:
     ignores:
     - node_modules
